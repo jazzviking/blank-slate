@@ -14,4 +14,4 @@ scoreBubbles.forEach((bubble) =>
   bubble.addEventListener('click', toggleScoreBubble)
 );
 
-//why won't this upload
+// fixed?
