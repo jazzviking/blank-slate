@@ -13,3 +13,5 @@ const toggleScoreBubble = (e) => {
 scoreBubbles.forEach((bubble) =>
   bubble.addEventListener('click', toggleScoreBubble)
 );
+
+//test
