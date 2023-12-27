@@ -3,11 +3,22 @@
 const scoreBubbles = document.querySelectorAll('.score_bubble');
 
 const toggleScoreBubble = (e) => {
-  let activeLocationIndex;
-  e.target.classList.toggle('active');
+  const activeLocation =
+    e.target.parentElement.querySelectorAll('.score_bubble');
+  let index = Array.from(activeLocation).indexOf(e.target);
+  console.log(index);
 
-  const activeLocation = document.querySelectorAll('.score_bubble');
-  console.log(activeLocation);
+  if (e.target.className === 'score_bubble active') {
+    //deactivate bubble and bubbles to right
+    activeLocation.forEach((el, x) => {
+      x >= index && el.classList.remove('active');
+    });
+  } else {
+    //activate bubble and bubbles to left
+    activeLocation.forEach((el, x) => {
+      x <= index && el.classList.add('active');
+    });
+  }
 };
 
 scoreBubbles.forEach((bubble) =>
