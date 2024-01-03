@@ -144,3 +144,19 @@ h2 {
 .player8 .active {
   background-color: var(--player8);
 }
+
+.score_number {
+  display: none;
+}
+
+/* @media (width: 500px) {
+  .bubble_container {
+    display: none;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  .score_number {
+    display: block;
+  }
+} */
