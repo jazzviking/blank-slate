@@ -15,16 +15,21 @@
   --player8: rgb(97, 55, 55);
 }
 
+html {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
 h1 {
   text-align: center;
   font-size: 4vw;
   margin: 2.5vw;
+  font-weight: 700;
 }
 
 h2 {
   text-align: center;
   font-size: 2vw;
-  font-weight: 300;
+  font-weight: 400;
 
   flex-basis: 15vw;
 }
