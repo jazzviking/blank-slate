@@ -6,7 +6,6 @@ const toggleScoreBubble = (e) => {
   const activeLocation =
     e.target.parentElement.querySelectorAll('.score_bubble');
   let index = Array.from(activeLocation).indexOf(e.target);
-  console.log(index);
 
   if (e.target.className === 'score_bubble active') {
     //deactivate bubble and bubbles to right
