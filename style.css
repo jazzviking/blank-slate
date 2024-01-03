@@ -17,6 +17,7 @@
 
 html {
   font-family: 'Hind Siliguri', sans-serif;
+  background-color: hsl(220, 25%, 95%);
 }
 
 h1 {
@@ -42,6 +43,8 @@ h2 {
 }
 
 .player {
+  background-color: white;
+
   margin-bottom: 1.2vw;
 
   border-radius: 1.7vw;
@@ -107,7 +110,7 @@ h2 {
 }
 
 .score_bubble:nth-child(5n) {
-  border: 0.25vw solid rgb(20, 20, 20);
+  border: 0.25vw solid rgb(50, 50, 50);
   position: relative;
   display: flex;
 }
