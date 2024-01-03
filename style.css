@@ -113,6 +113,22 @@ h2 {
   align-self: center;
 }
 
+.score_bubble:nth-child(10)::after {
+  content: '10';
+}
+
+.score_bubble:nth-child(15)::after {
+  content: '15';
+}
+
+.score_bubble:nth-child(20)::after {
+  content: '20';
+}
+
+.score_bubble:nth-child(25)::after {
+  content: '25';
+}
+
 .player1 .active {
   background-color: var(--player1);
 }
