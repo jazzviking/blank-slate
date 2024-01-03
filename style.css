@@ -110,7 +110,7 @@ h2 {
 }
 
 .score_bubble:nth-child(5n) {
-  border: 0.25vw solid rgb(50, 50, 50);
+  border: 0.24vw solid rgb(50, 50, 50);
   position: relative;
   display: flex;
 }
